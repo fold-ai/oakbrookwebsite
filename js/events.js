@@ -24,12 +24,12 @@
      location    — where it takes place
      description — one or two sentences shown on the calendar page
 
-   ▸ Example with a fixed time and place (e.g. the summer picnic):
+   ▸ Example with a fixed time and place (e.g. a future picnic):
 
      {
-       id: "2026-picnic",
+       id: "2027-picnic",
        title: "Community Picnic",
-       date: "2026-08-22",
+       date: "2027-07-17",
        start: "12:00",
        end: "15:00",
        location: "Forest Glen Park",
@@ -61,6 +61,18 @@ const FG_EVENTS = [
     location: FG_BOARD_LOCATION, description: FG_BOARD_DESC },
   { id: "bm-2026-08", title: "Monthly Board Meeting", date: "2026-08-11",
     location: FG_BOARD_LOCATION, description: FG_BOARD_DESC },
+
+  /* ---- Community events ---- */
+  {
+    id: "2026-end-of-summer-party",
+    title: "Forest Glen Community End of Summer Party",
+    date: "2026-08-23",
+    location: "Details to be announced — ask any board member",
+    description: "Food, games, and fun with friends and neighbors to send " +
+      "off the summer. Details will be shared closer to the date — ask any " +
+      "member of the Board of Directors. Everyone is welcome!"
+  },
+
   { id: "bm-2026-09", title: "Monthly Board Meeting", date: "2026-09-08",
     location: FG_BOARD_LOCATION, description: FG_BOARD_DESC },
   { id: "bm-2026-10", title: "Monthly Board Meeting", date: "2026-10-13",
